@@ -1,6 +1,5 @@
 import os
 
-
 file_name = os.path.join("day_2_part1.txt")
 
 with open(file_name, "r") as f:
