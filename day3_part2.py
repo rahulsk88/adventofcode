@@ -20,8 +20,7 @@ def get_max_joltage(content):
             start_index = 0
         battery_value = 0
 
-        while start_index < len(bank) - (12 - len(bank_index)) + 1:  # What if you are at the last. 
-                                                              # Then it should automatically stop
+        while start_index < len(bank) - (12 - len(bank_index)) + 1: 
             
             current_value = int(bank[start_index]) 
             if current_value > battery_value:
